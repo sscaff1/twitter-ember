@@ -1,0 +1,5 @@
+{{#if twitterLoggedIn}}
+  <button class="login-logout" {{action 'twitterLogout'}}>Logout</button>
+{{else}}
+  <button class="login-logout" {{action 'twitterLogin'}}>Login with Twitter</button>
+{{/if}}
